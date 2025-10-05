@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Computer Store</title>
+    <meta name="description" content="Ваш компьютер — наша забота.">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">"
+</head>
+
+<body>
+
+    <header data-aos="fade-down" data-aos-delay="200">
+        <div class="container">
+            <div class="header_inner">
+                <a class="header_logo" href="/">
+                    <img class="header_logo_size" src="./photo/comp logo.png" alt="логотип магазина Computer Store ">
+                </a>
+                <div class="header_content">
+                    <nav class="header_navigate">
+                        <a href="">Товары</a>
+                        <a href="">Отзывы</a>
+                        <a href="">Контакты</a>
+                    </nav>
+                    <div class="header_search">
+                        <img src="./photo/search.png" alt="">
+                        <input class="header_input" type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="welcome">
+        <div class="container">
+            <div class="welocome_inner">
+                <div class="welcome_left">
+                    <h1 data-aos="zoom-in" data-aos-delay="400" class="welcome_title">Computer Store</h1>
+                    <h2 data-aos="zoom-in" data-aos-delay="600" class="welcome_subtitle">
+                        Технологии, которые открывают мир.
+                    </h2>
+                </div>
+                <div data-aos="flip-up" data-aos-delay="800" class="welcome_right">
+                    <div class="welcome_form">
+                        <div class="welcome_form_title">
+                            Заказать компьютер
+                        </div>
+                        <input type="tel" placeholder="+7(999)-999-99-99" class="welcome_form_tel">
+                        <div>
+                            <div class="welcome_form_select_title">
+                                Выберите куда Доставить
+                            </div>
+                            <select class="welcome_form_select">
+                                <option value="">Turkey</option>
+                                <option value="">Russia</option>
+                                <option value="">USA</option>
+                                <option value="">Belarus</option>
+                                <option value="">France</option>
+                                <option value="">Germany</option>
+                            </select>
+                        </div>
+                        <label class="welcome_form_politic">
+                            <input type="checkbox">
+                            <div>Я Ознакомлен с политикой</div>
+                        </label>
+                        <button class="welcome_form_button">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
